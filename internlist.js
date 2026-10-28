@@ -16,7 +16,7 @@ const INTERN = /\bintern(ship)?s?\b|co-?op/i;
 const PHD = /\bph\.?d\b|doctoral|master'?s only|mba\b/i;
 const TECH = /engineer|software|developer|\bdata\b|machine learning|\bml\b|\bai\b|research|quant|firmware|embedded|hardware|electrical|security|cyber|infrastructure|platform|systems|robotic|analytics|computer|technolog|\bswe\b|\bsre\b|devops|cloud|fpga|silicon|asic|autonomy|perception|controls/i;
 const NOT_TECH = /consult|sales|account (development|executive|manager)|marketing|recruit|talent|business (operations|development|analyst)|\bfinance\b|accounting|legal|product manag|program manag|\bhr\b|people|customer|support|communications|content|design intern|product design|industrial design|graphic/i;
-// The "Engineering and Development" list mixes in non-ECE engineering.
+// The "Engineering and Development" list mixes in non-ECE engineering (Workday postings get the same filter).
 const OFF_FIELD = /mechanical|civil|chemical|structural|environmental|construction|manufacturing|process eng|quality eng|industrial eng|biomedical|petroleum|mining|geotech|transportation eng|water resources|packaging|facilities|estimat|surveying|hvac|plumbing|clinical/i;
 // Title + "Hire Time" must not point at a term other than Summer 2027.
 const otherTerm = s => !/summer/i.test(s) && (/fall|spring|winter|autumn|\b(jan(uary)?|feb(ruary)?|mar(ch)?|apr(il)?|aug(ust)?|sept?(ember)?|oct(ober)?|nov(ember)?|dec(ember)?)\b/i.test(s)
@@ -63,4 +63,4 @@ async function fetchAll() {
   return { jobs: [...jobs.values()], failed };
 }
 
-module.exports = { fetchAll, matches, isFresh, norm, TABLES };
+module.exports = { fetchAll, matches, isFresh, norm, TABLES, OFF_FIELD };

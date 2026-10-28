@@ -370,5 +370,299 @@
  {
   "ats": "lever",
   "slug": "voleon"
+ },
+ {
+  "ats": "workday",
+  "name": "Micron",
+  "slug": "micron",
+  "host": "micron.wd1.myworkdayjobs.com",
+  "site": "External"
+ },
+ {
+  "ats": "workday",
+  "name": "Marvell",
+  "slug": "marvell",
+  "host": "marvell.wd1.myworkdayjobs.com",
+  "site": "MarvellCareers"
+ },
+ {
+  "ats": "workday",
+  "name": "Salesforce",
+  "slug": "salesforce",
+  "host": "salesforce.wd12.myworkdayjobs.com",
+  "site": "External_Career_Site"
+ },
+ {
+  "ats": "workday",
+  "name": "Analog Devices",
+  "slug": "analogdevices",
+  "host": "analogdevices.wd1.myworkdayjobs.com",
+  "site": "External"
+ },
+ {
+  "ats": "workday",
+  "name": "KLA",
+  "slug": "kla",
+  "host": "kla.wd1.myworkdayjobs.com",
+  "site": "Search"
+ },
+ {
+  "ats": "workday",
+  "name": "Intel",
+  "slug": "intel",
+  "host": "intel.wd1.myworkdayjobs.com",
+  "site": "External"
+ },
+ {
+  "ats": "workday",
+  "name": "NVIDIA",
+  "slug": "nvidia",
+  "host": "nvidia.wd5.myworkdayjobs.com",
+  "site": "NVIDIAExternalCareerSite"
+ },
+ {
+  "ats": "workday",
+  "name": "Applied Materials",
+  "slug": "amat",
+  "host": "amat.wd1.myworkdayjobs.com",
+  "site": "External"
+ },
+ {
+  "ats": "workday",
+  "name": "Capital One",
+  "slug": "capitalone",
+  "host": "capitalone.wd12.myworkdayjobs.com",
+  "site": "Capital_One"
+ },
+ {
+  "ats": "workday",
+  "name": "RTX",
+  "slug": "globalhr",
+  "host": "globalhr.wd5.myworkdayjobs.com",
+  "site": "REC_RTX_Ext_Gateway"
+ },
+ {
+  "ats": "workday",
+  "name": "Northrop Grumman",
+  "slug": "ngc",
+  "host": "ngc.wd1.myworkdayjobs.com",
+  "site": "Northrop_Grumman_External_Site"
+ },
+ {
+  "ats": "workday",
+  "name": "Adobe",
+  "slug": "adobe",
+  "host": "adobe.wd5.myworkdayjobs.com",
+  "site": "external_experienced"
+ },
+ {
+  "ats": "workday",
+  "name": "Motorola Solutions",
+  "slug": "motorolasolutions",
+  "host": "motorolasolutions.wd5.myworkdayjobs.com",
+  "site": "Careers"
+ },
+ {
+  "ats": "workday",
+  "name": "HP",
+  "slug": "hp",
+  "host": "hp.wd5.myworkdayjobs.com",
+  "site": "ExternalCareerSite"
+ },
+ {
+  "ats": "workday",
+  "name": "Boeing",
+  "slug": "boeing",
+  "host": "boeing.wd1.myworkdayjobs.com",
+  "site": "EXTERNAL_CAREERS"
+ },
+ {
+  "ats": "workday",
+  "name": "Workday",
+  "slug": "workday",
+  "host": "workday.wd5.myworkdayjobs.com",
+  "site": "Workday"
+ },
+ {
+  "ats": "workday",
+  "name": "Zoom",
+  "slug": "zoom",
+  "host": "zoom.wd5.myworkdayjobs.com",
+  "site": "Zoom"
+ },
+ {
+  "ats": "workday",
+  "name": "CrowdStrike",
+  "slug": "crowdstrike",
+  "host": "crowdstrike.wd5.myworkdayjobs.com",
+  "site": "crowdstrikecareers"
+ },
+ {
+  "ats": "workday",
+  "name": "PayPal",
+  "slug": "paypal",
+  "host": "paypal.wd1.myworkdayjobs.com",
+  "site": "jobs"
+ },
+ {
+  "ats": "workday",
+  "name": "Mastercard",
+  "slug": "mastercard",
+  "host": "mastercard.wd1.myworkdayjobs.com",
+  "site": "CorporateCareers"
+ },
+ {
+  "ats": "workday",
+  "name": "GDIT",
+  "slug": "gdit",
+  "host": "gdit.wd5.myworkdayjobs.com",
+  "site": "External_Career_Site"
+ },
+ {
+  "ats": "workday",
+  "name": "General Motors",
+  "slug": "generalmotors",
+  "host": "generalmotors.wd5.myworkdayjobs.com",
+  "site": "Careers_GM"
+ },
+ {
+  "ats": "workday",
+  "name": "Booz Allen",
+  "slug": "bah",
+  "host": "bah.wd1.myworkdayjobs.com",
+  "site": "BAH_Jobs"
+ },
+ {
+  "ats": "workday",
+  "name": "Target",
+  "slug": "target",
+  "host": "target.wd5.myworkdayjobs.com",
+  "site": "targetcareers"
+ },
+ {
+  "ats": "workday",
+  "name": "Leidos",
+  "slug": "leidos",
+  "host": "leidos.wd5.myworkdayjobs.com",
+  "site": "External"
+ },
+ {
+  "ats": "workday",
+  "name": "Broadcom",
+  "slug": "broadcom",
+  "host": "broadcom.wd1.myworkdayjobs.com",
+  "site": "External_Career"
+ },
+ {
+  "ats": "workday",
+  "name": "Cadence",
+  "slug": "cadence",
+  "host": "cadence.wd1.myworkdayjobs.com",
+  "site": "External_Careers"
+ },
+ {
+  "ats": "workday",
+  "name": "NXP",
+  "slug": "nxp",
+  "host": "nxp.wd3.myworkdayjobs.com",
+  "site": "careers"
+ },
+ {
+  "ats": "workday",
+  "name": "Samsung",
+  "slug": "sec",
+  "host": "sec.wd3.myworkdayjobs.com",
+  "site": "Samsung_Careers"
+ },
+ {
+  "ats": "workday",
+  "name": "HPE",
+  "slug": "hpe",
+  "host": "hpe.wd5.myworkdayjobs.com",
+  "site": "Jobsathpe"
+ },
+ {
+  "ats": "workday",
+  "name": "Disney",
+  "slug": "disney",
+  "host": "disney.wd5.myworkdayjobs.com",
+  "site": "disneycareer"
+ },
+ {
+  "ats": "workday",
+  "name": "Cisco",
+  "slug": "cisco",
+  "host": "cisco.wd5.myworkdayjobs.com",
+  "site": "Cisco_Careers"
+ },
+ {
+  "ats": "workday",
+  "name": "Fidelity",
+  "slug": "fmr",
+  "host": "fmr.wd1.myworkdayjobs.com",
+  "site": "targeted"
+ },
+ {
+  "ats": "workday",
+  "name": "3M",
+  "slug": "3m",
+  "host": "3m.wd1.myworkdayjobs.com",
+  "site": "Search"
+ },
+ {
+  "ats": "workday",
+  "name": "Medtronic",
+  "slug": "medtronic",
+  "host": "medtronic.wd1.myworkdayjobs.com",
+  "site": "MedtronicCareers"
+ },
+ {
+  "ats": "workday",
+  "name": "GE Vernova",
+  "slug": "gevernova",
+  "host": "gevernova.wd5.myworkdayjobs.com",
+  "site": "Vernova_ExternalSite"
+ },
+ {
+  "ats": "workday",
+  "name": "GE Aerospace",
+  "slug": "geaerospace",
+  "host": "geaerospace.wd5.myworkdayjobs.com",
+  "site": "GE_ExternalSite"
+ },
+ {
+  "ats": "workday",
+  "name": "Ciena",
+  "slug": "ciena",
+  "host": "ciena.wd5.myworkdayjobs.com",
+  "site": "Careers"
+ },
+ {
+  "ats": "workday",
+  "name": "Visa",
+  "slug": "visa",
+  "host": "visa.wd5.myworkdayjobs.com",
+  "site": "Visa"
+ },
+ {
+  "ats": "workday",
+  "name": "Red Hat",
+  "slug": "redhat",
+  "host": "redhat.wd5.myworkdayjobs.com",
+  "site": "jobs"
+ },
+ {
+  "ats": "workday",
+  "name": "Autodesk",
+  "slug": "autodesk",
+  "host": "autodesk.wd1.myworkdayjobs.com",
+  "site": "Ext"
+ },
+ {
+  "ats": "workday",
+  "name": "Morgan Stanley",
+  "slug": "ms",
+  "host": "ms.wd5.myworkdayjobs.com",
+  "site": "External"
  }
 ]
