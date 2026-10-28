@@ -21,16 +21,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Check boards and notify
+      - name: Check boards and intern-list, notify
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: node watch.js
       - name: Save seen jobs
         run: |
-          if ! git diff --quiet state.json 2>/dev/null || [ -n "$(git status --porcelain state.json)" ]; then
+          git add state.json seen_internlist.txt
+          if ! git diff --cached --quiet; then
             git config user.name "watcher-bot"
             git config user.email "watcher-bot@users.noreply.github.com"
-            git add state.json
             git commit -m "Update seen jobs"
             git push
           fi
