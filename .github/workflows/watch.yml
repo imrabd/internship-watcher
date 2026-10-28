@@ -1,0 +1,36 @@
+name: Watch internship boards
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'   # every 5 minutes (GitHub may run it a few minutes late)
+  workflow_dispatch:         # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Check boards and notify
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: node watch.js
+      - name: Save seen jobs
+        run: |
+          if ! git diff --quiet state.json 2>/dev/null || [ -n "$(git status --porcelain state.json)" ]; then
+            git config user.name "watcher-bot"
+            git config user.email "watcher-bot@users.noreply.github.com"
+            git add state.json
+            git commit -m "Update seen jobs"
+            git push
+          fi
